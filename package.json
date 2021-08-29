@@ -1,0 +1,21 @@
+{
+  "name": "whatsapp-integration",
+  "description": "Twilio Dialogflow Connector",
+  "version": "0.0.1",
+  "private": true,
+  "license": "Apache Version 2.0",
+  "author": "@ayushnigm",
+  "engines": {
+    "node": "14"
+  },
+  "scripts": {
+    "start": "firebase serve --only functions:whatsapp-integration",
+    "deploy": "firebase deploy --only functions:whatsapp-integration"
+  },
+  "dependencies": {
+    "@google-cloud/dialogflow-cx": "^2.13.0",
+    "firebase-admin": "^9.11.1",
+    "firebase-functions": "^3.15.4",
+    "twilio": "^3.67.1"
+  }
+}
