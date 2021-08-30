@@ -1,4 +1,4 @@
-# Dialogflow CX WhatsApp Integration with Twilio
+# Dialogflow CX and WhatsApp Integration with Twilio
 
 A simple way to connect and integrate Dialogflow CX with Whatsapp with Twilio. 
 
